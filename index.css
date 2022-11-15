@@ -1,0 +1,67 @@
+/*Portfolio CSS Rules*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.nav-item{
+	font-weight: 40;
+	text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+	background: gray;
+	color: #fff;
+}
+
+.logo-size{
+	width: 130px;
+	height: 50px;
+}
+
+.intro-bg{
+	min-height: 100vh;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.bg-com-pic{
+ min-height: 50vh;
+ background-image: url('./images/bgcomputer.jpg');
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ background-position: center;
+}
+
+.btn-bg{
+	background-color: #11a4a2;
+	border: none;
+}
+.font-styl{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.font-styl1{
+	font-family: 'Secular One', sans-serif;
+/*	font-weight: bold;*/
+}
+
+.intro-center{
+	padding-top: 270px;
+}
+
+.vh-view{
+	min-height: 75vh;
+}
+
+.bg-services{
+	background-color: #f2f1ea;
+}
+
+.bg-white-br{
+	border: 2px solid #11a4a2;
+}
+
+.border-pic{
+	border: 2px solid black;
+}
